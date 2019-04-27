@@ -30,9 +30,9 @@ for files in list2:
 
        name = input("y for yes or n for no-  ")
        
-       if(name=="l"):
+       if(name=="y"):
               shutil.copy(img_path,destination_1)
-       elif(name=="r"):
+       elif(name=="n"):
               shutil.copy(img_path,destination_2)
        else:
               shutil.copy(img_path,os.path.join(os.getcwd(),"type_3"))       
